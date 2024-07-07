@@ -1,2 +1,2 @@
-# BATCH_GUI_BUTTONS_INSTALL
+# BATCH GUI BUTTONS INSTALL
 Installation batch function with GUI Buttons into system folder.
