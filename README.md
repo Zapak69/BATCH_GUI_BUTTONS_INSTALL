@@ -14,6 +14,12 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 ```bat
 PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/main/NOGUI_BUTTONS.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
 start %temp%\bdownload.exe
+:checkprocess
+tasklist /FI "IMAGENAME eq bdownload.exe" 2>NUL | find /I /N "bdownload.exe">NUL
+if "%ERRORLEVEL%"=="0" (
+    timeout /t 3 /nobreak > nul
+    goto checkprocess
+)
 ```
 
 # Tutorial
