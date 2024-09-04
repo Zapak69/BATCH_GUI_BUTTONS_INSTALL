@@ -53,10 +53,10 @@ if NOT exist "%systemroot%\System32\Button.bat" if NOT exist "%systemroot%\Syste
 <h1 align="center" style="font-weight: bold">Previews</h1>
 
 ## Corner:
-[![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)
+![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)
 
 ## Bold:
-[![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)
+![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)
 
 <h1 align="center" style="font-weight: bold">Video tutorial</h1>
 
