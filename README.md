@@ -14,7 +14,7 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 ## Example
 1. Start cmd.exe
 2. cd "location of install app"
-3. `GUI_BUTTONS.exe -nogui -remove`
+3. `setup.exe -nogui -remove`
 
 <h1 align="center" style="font-weight: bold">Script import</h1>
 
