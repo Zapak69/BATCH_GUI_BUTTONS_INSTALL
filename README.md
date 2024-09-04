@@ -51,6 +51,7 @@ if NOT exist "%systemroot%\System32\Button.bat" if NOT exist "%systemroot%\Syste
 ```
 
 <h1 align="center" style="font-weight: bold">Previews</h1>
+
 ## Corner:
 [![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)
 
@@ -58,4 +59,5 @@ if NOT exist "%systemroot%\System32\Button.bat" if NOT exist "%systemroot%\Syste
 [![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)
 
 <h1 align="center" style="font-weight: bold">Video tutorial</h1>
+
 [![Tutorial](https://img.youtube.com/vi/XGORhz3z3Dg/0.jpg)](https://www.youtube.com/watch?v=XGORhz3z3Dg)
