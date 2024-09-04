@@ -14,6 +14,7 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 3. `GUI_BUTTONS.exe -nogui -remove`
 
 <h1 align="center" style="font-weight: bold">Script import</h1>
+
 ```bat
 PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/main/NOGUI_BUTTONS.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
 start %temp%\bdownload.exe
