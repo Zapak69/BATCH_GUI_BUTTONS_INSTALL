@@ -19,8 +19,16 @@
 set "APP_NAME=Batch Gui Buttons"
 set "APP_DIR=%ProgramFiles%\%APP_NAME%"
 set "UNINSTALL_EXE=uninstall.exe"
-if "%1" == "-remove" goto remove
-if "%2" == "-remove" goto remove
+set "bold=false"
+set "corner=false"
+set "remove=false"
+for %%i in (%*) do (
+    if "%%i"=="-remove" set "remove=true"
+    if "%%i"=="-bold" set "bold=true"
+    if "%%i"=="-corner" set "corner=true"
+)
+if "%remove%"=="true" goto remove
+
 setlocal
 
 if not exist "%APP_DIR%" (
