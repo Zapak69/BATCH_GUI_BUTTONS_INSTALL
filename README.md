@@ -1,4 +1,6 @@
-# BATCH GUI BUTTONS INSTALL
+<p align="center">
+// # BATCH GUI BUTTONS INSTALL
+</p>
 Installation batch function with GUI Buttons into system folder.
 This program installing this function: https://github.com/Psi505/Batch-GUI-Button
 
@@ -52,10 +54,10 @@ if NOT exist "%systemroot%\System32\Button.bat" if NOT exist "%systemroot%\Syste
 
 # Previews
 ## Corner:
-[![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)]
+[![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)
 
 ## Bold:
-[![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)]
+[![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)
 
 # Tutorial
 [![Tutorial](https://img.youtube.com/vi/XGORhz3z3Dg/0.jpg)](https://www.youtube.com/watch?v=XGORhz3z3Dg)
