@@ -5,6 +5,9 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 # Parameters:
 `-nogui` - launch minimized
 `-remove` - remove this function
+`-corner` - Corner style for buttons (more in preview)
+`-bold` - Bold style for buttons (more in preview)
+
 ## Example
 1. Start cmd.exe
 2. cd "location of install app"
@@ -46,6 +49,13 @@ if NOT exist "%systemroot%\System32\Button.bat" if NOT exist "%systemroot%\Syste
 )
 :skip
 ```
+
+# Previews
+## Corner:
+[![Corner](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/corner.png?raw=true)]
+
+## Bold:
+[![Bold](https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/blob/main/Images/bold.png?raw=true)]
 
 # Tutorial
 [![Tutorial](https://img.youtube.com/vi/XGORhz3z3Dg/0.jpg)](https://www.youtube.com/watch?v=XGORhz3z3Dg)
