@@ -358,7 +358,11 @@ exit /b 1
 
 :nogui
 PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/main/NOGUI_BUTTONS.exe' -UseBasicParsing -OutFile '%temp%\nogui.exe'"
-if "%~1" == "-remove" start %temp%\nogui.exe -remove
-if "%~2" == "-remove" start %temp%\nogui.exe -remove
-if NOT "%~1" == "-remove" if NOT "%~2" == "-remove" start %temp%\nogui.exe
+set "nogui_params="
+for %%i in (%*) do (
+    if "%%i"=="-remove" set "nogui_params=%nogui_params% -remove"
+    if "%%i"=="-bold" set "nogui_params=%nogui_params% -bold"
+    if "%%i"=="-corner" set "nogui_params=%nogui_params% -corner"
+)
+start %temp%\nogui.exe %nogui_params%
 exit
