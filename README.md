@@ -4,8 +4,11 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 
 # Parameters:
 `-nogui` - launch minimized
+
 `-remove` - remove this function
+
 `-corner` - Corner style for buttons (more in preview)
+
 `-bold` - Bold style for buttons (more in preview)
 
 ## Example
