@@ -1,4 +1,4 @@
-<h1 align="center" style="bold">BATCH GUI BUTTONS INSTALL</h1>
+<h1 align="center" style="font-weight: bold">BATCH GUI BUTTONS INSTALL</h1>
 Installation batch function with GUI Buttons into system folder.
 This program installing this function: https://github.com/Psi505/Batch-GUI-Button
 
