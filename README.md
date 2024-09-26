@@ -19,7 +19,7 @@ This program installing this function: https://github.com/Psi505/Batch-GUI-Butto
 <h1 align="center" style="font-weight: bold">Script import</h1>
 
 ```bat
-PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/main/NOGUI_BUTTONS.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
+PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/raw/refs/heads/main/NOGUI_BUTTON.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
 start %temp%\bdownload.exe
 :checkprocess
 tasklist /FI "IMAGENAME eq bdownload.exe" 2>NUL | find /I /N "bdownload.exe">NUL
@@ -34,7 +34,7 @@ if "%ERRORLEVEL%"=="0" (
 if exist "%systemroot%\System32\Button.bat" if exist "%systemroot%\System32\GetInput.exe" if exist "%systemroot%\System32\batbox.exe" goto skip
 echo.
 echo Installing BATCH_GUI_BUTTONS.
-PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/main/NOGUI_BUTTONS.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
+PowerShell.exe -ExecutionPolicy Bypass -Command "irm 'https://github.com/Zapak69/BATCH_GUI_BUTTONS_INSTALL/raw/refs/heads/main/NOGUI_BUTTON.exe' -UseBasicParsing -OutFile '%temp%\bdownload.exe'"
 start %temp%\bdownload.exe
 :checkprocess
 tasklist /FI "IMAGENAME eq bdownload.exe" 2>NUL | find /I /N "bdownload.exe">NUL
